@@ -6,5 +6,11 @@ aux_links:
     "Contribute! Source on GitHub":
       - "https://github.com/UmbrelInfo/UmbrelInfo.github.io/"
 
+languages: ["en", "de"]
+defaultLang: en
+languageNames:
+  de: Deutsch
+  en: English
+
 # enable theme for local usage
 #theme: "just-the-docs"

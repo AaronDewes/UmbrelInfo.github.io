@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>UmbrelInnfo</title>
+</head>
+<body>
+<script>
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf('de') == 0)
+        window.location = '/de/base.html';
+    else
+        window.location = '/en/base.html';
+</script>
+This page should automatically detect your language. Please enable JavaScript for that.
+</body>
+</html>
