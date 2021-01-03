@@ -5,7 +5,8 @@ search_enabled: true
 aux_links:
     "Contribute! Source on GitHub":
       - "https://github.com/UmbrelInfo/UmbrelInfo.github.io/"
-
+plugins:
+  - jekyll-multiple-languages-plugin
 languages: ["en", "de"]
 defaultLang: en
 languageNames:
